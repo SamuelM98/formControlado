@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('./assets/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario{
+  padding: 10px 30px 50px;
+  width: 35%;
+  background-color: white;
+  animation: cambio 2.5s ease-in-out infinite;
+}
+.botones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@keyframes cambio{
+  0% {border: 3px solid blue;}
+  50% {border: 3px solid gold;}
+  100% {border: 3px solid blue;}
+}
